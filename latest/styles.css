@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(244 248 169 / 32%);
+    text-align: center;
+
+}
+
+button {
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.page2 {
+    background-color: white;
+}
+
+.cat {
+    width: 600px;
+    height: 400px;
+}
+
+
+.eat {
+    margin: 50px;
+}
+
+.gifts {
+    margin: 50px;
+}

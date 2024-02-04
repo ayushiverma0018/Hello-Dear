@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+
+        div.top {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+
+        }
+
+        div.bot {
+            position: absolute;
+            z-index: -1;
+            left: 20px;
+            bottom: 20px;
+
+        }
+
+        div.topr {
+            position: absolute;
+            right: 20px;
+
+        }
+
+        .container {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h2>Top Left</h2>
+        </div>
+        <div class="bot">
+            <h2>Bottom Left</h2>
+        </div>
+        <div class="topr">
+            <h2>Top Right</h2>
+        </div>
+
+        <img src="image.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
